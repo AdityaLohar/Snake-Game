@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hungry Snake</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- defer is used to tell the browser to wait until thr page
+        has finished parsing before executing the script -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- <audio id="bgMusic" src="./sound/Run-Amok.mp3" loop></audio> -->
+    <!-- <audio id="foodSound" src="./sound/mixkit-arcade-retro-changing-tab-206.wav" loop></audio> -->
+    <div class="wrapper">
+        <div class="game-details">
+            <span class="score" >Score: 0</span>
+            <span class="high-score" >Highscore: 0</span>
+        </div>
+        <div class="play-board"></div>
+        <div class="controls">
+            <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long" ></i>
+            <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long" ></i>
+            <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long" ></i>
+            <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long" ></i>
+        </div>
+    </div>  
+</body>
+</html>
